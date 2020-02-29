@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/photoback"
+    tools:context=".write">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Prescription"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/ptname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginRight="30dp"
+        android:hint="Patient Name"
+        android:textColorHint="#1E1A1A" />
+
+    <EditText
+        android:id="@+id/disease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="30dp"
+        android:hint="Disease"
+        android:textColorHint="#1E1A1A" />
+
+    <EditText
+        android:id="@+id/prescribtion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="Prescription"
+
+        android:textColorHint="#1E1A1A" />
+
+    <EditText
+        android:id="@+id/prior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="30dp"
+        android:hint="Prior Medical History"
+        android:textColorHint="#1E1A1A" />
+
+    <Button
+        android:id="@+id/btn_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/buttonhai"
+        android:text="Submit"
+
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

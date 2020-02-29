@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/photoback"
+    tools:context=".login">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Login Here!"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Email"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:textColorHint="@android:color/black"
+        android:id="@+id/log_email"
+        android:layout_marginTop="95dp"/>
+    <EditText
+        android:id="@+id/log_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:textColorHint="@android:color/black"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="195dp"
+        android:ems="10"
+        android:layout_marginRight="30dp"
+        android:hint="Password"
+
+        android:inputType="textPassword" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textColorHint="@android:color/black"
+        android:layout_marginRight="30dp"
+        android:hint="Name"
+
+
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:id="@+id/log_name"
+        android:layout_marginTop="290dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Number"
+        android:textColorHint="@android:color/black"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:id="@+id/log_number"
+        android:layout_marginTop="390dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="Domain"
+        android:textColorHint="@android:color/black"
+        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
+        android:id="@+id/domainn"
+        android:layout_marginTop="490dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:id="@+id/button"
+        android:background="@drawable/buttonhai"
+        android:text="Submit"
+
+        android:layout_marginTop="560dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Signup Here!"
+        android:textColor="@android:color/black"
+        android:onClick="txtreg"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="620dp"
+        />
+
+</RelativeLayout>

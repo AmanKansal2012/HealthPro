@@ -139,7 +139,7 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
-                    android:text="Prescribtion"
+                    android:text="Prescription"
                     android:textSize="18sp" />
 
 
@@ -208,15 +208,16 @@
                     android:layout_width="150dp"
                     android:layout_height="140dp"
                     android:layout_centerHorizontal="true"
-                    android:background="@drawable/video"
-                    />
+                    android:background="@drawable/about"
+                    android:onClick="about" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="18sp"
-                    android:layout_centerHorizontal="true"
                     android:layout_alignParentBottom="true"
-                    android:text="Videochat"/>
+                    android:layout_centerHorizontal="true"
+                    android:text="About"
+                    android:textSize="18sp" />
 
 
             </RelativeLayout>

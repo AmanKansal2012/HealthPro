@@ -109,4 +109,9 @@ public class dash extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public void about(View view) {
+        Intent intent = new Intent(dash.this, about.class);
+        startActivity(intent);
+    }
 }
